@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "take-home"
+version = "0.1.0"
+description = "Basic Django web application for take home assignment."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.3"
+polygon-api-client = "^1.14.2"
+djangorestframework = "^3.15.2"
+django-redis = "^5.4.0"
+psycopg2-binary = "^2.9.9"
+drf-yasg = "^1.21.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
